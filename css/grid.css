@@ -1,0 +1,384 @@
+﻿
+body{
+	width: 100%;
+	background-image: url("../img/ita.jpg") ;
+	}
+
+
+/*#wrapper*/
+
+#contents{
+	width: 1360px;
+	margin: 0 auto;
+	margin-top: 20px;
+		
+}
+
+/*16分割　85*16　*/
+
+
+main{
+	display: none;
+	
+	}
+
+.breadcrumb{
+	width: 500px;
+	height: 25px;
+	margin: 10px 0 50px 100px;;
+	padding: 0 30px;
+	background-color: #E7E7E7;
+	border-radius: 20px;
+	border: 2px solid #1D1008;
+	border-left: 30px solid #1D1008;
+	
+	
+	}
+
+.breadcrumb ul{
+	
+	}
+
+.breadcrumb ul li{
+	display: inline;
+		}
+	
+.breadcrumb ul li a{
+	display: inline;
+	font-family: 'M PLUS 1p', sans-serif;
+	color: #000;
+	font-weight: 500;
+	}	
+
+.breadcrumb ul li:after{
+	content:">";
+	display:inline-block;
+	padding: 0 10px;
+	color: #000;
+	}
+	
+.breadcrumb ul li:last-child::after{
+	content: normal;
+}	
+
+
+#side_menu{
+	/*background-color: #317AD9;*/
+	height: 1000px;
+	
+}
+
+
+#infoPan{
+	/*background-color: #450607;
+	/*height: 1000px;*/
+	
+}
+
+
+.logo{
+	margin: 20px auto;
+	width: 205px;
+		
+}
+
+.side_nav{
+	width: 210px;
+	margin: 50px auto;
+	}
+
+.side_nav ul li{
+	width: 100%;
+	padding: 15px 0;
+	/*border-bottom: 1px solid #1B62E4;*/
+	/*text-align:center;*/
+	}
+	
+.side_nav ul li a{
+	font-weight: bold;
+	color: #000;
+	display:block;
+	text-decoration:none;
+	padding: 10px 10px;
+	border-left: 10px solid #1163d3;
+	border-radius: 5px;
+	background: #b8b5b5;
+	background: -moz-linear-gradient(#f3f2f2,#f0f0f0,#b8b5b5);
+	background:  -webkit-linear-gradient(#f3f2f2,#f0f0f0,#b8b5b5);
+	background: -ms-linear-gradient(#f3f2f2,#f0f0f0,#b8b5b5);
+	background: linear-gradient(#f3f2f2,#f0f0f0,#b8b5b5);
+	font-family: 'M PLUS 1p', sans-serif;
+	}
+
+.side_nav a:hover{
+	border-left: 10px solid #f43757;
+	
+}
+
+
+
+
+.grid1{
+	width: 85px;
+	
+}
+
+.grid2{
+	width: 165px;
+	
+}
+
+.grid3{
+	width: 250px;
+	height: 220px;
+	/*border: 1px solid #b5c8e1;*/
+	
+}
+
+.last_grid {
+	margin-bottom: 10px;
+
+
+}
+.grid4{
+	width: 335px;
+	
+}
+
+.grid5{
+	width: 420px;
+	height: 220px;
+}
+
+.grid6{
+	width: 505px;
+	
+}
+
+.grid9{
+	width: 760px;
+	
+}
+
+.grid12{
+	width: 1015px;
+	
+}
+
+.grid1,.grid2,.grid3,.grid4,.grid5,.grid6,.grid9{
+	float: left;
+	display: inline;
+	margin-left: 5px;
+	margin-top: 5px;
+	
+}
+
+
+
+.first{
+	/*clear: left;*/
+	margin-left: 0;
+		
+	
+}
+
+.spin{
+	position: relative;
+	perspective: 1000px;
+	}
+	
+.spin img {
+	transition: opacity .6s, transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+	backface-visibility: hidden;
+		
+}	
+
+.spin dl {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	width: 250px;
+	height: 220px;
+	border: 3px solid #f43757;
+	background-color: #E7E7E7;
+	transform: rotateX(-180deg);
+	transition: opacity .6s, transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+	backface-visibility: hidden; /*裏返ると不可視の状態になる*/
+	
+	}
+ 
+.spin dt{
+	color: #000;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-size: 16px;
+	font-weight:700;
+	display:block;
+	margin: 25px 0 20px;
+	text-align:center;
+	}
+
+
+
+.spin dd{
+	color: #000;
+	font-family: 'M PLUS 1p', sans-serif;
+	font-weight:500;
+	display:block;
+	text-align:left;
+	padding: 3px 0px 0 50px;
+	}
+
+.spin dd:last-child{
+	padding-top: 15px;
+	}
+
+
+/*
+.spin:hover img {
+	transform: rotateX(180deg);
+}
+.spin:hover dl {
+	transform: none;
+		
+}
+*/
+
+.click{
+	
+	transform: none !important;	
+	}
+
+	
+.test2{	
+	transform: rotateX(180deg); 
+	}	
+
+.sns{
+	float: left;
+	width: 765px;
+	margin-top: 10px;
+	margin-left: 5px;
+
+}
+
+@media only screen and (max-width: 768px){
+
+#contents {
+
+    width: auto;
+}
+
+
+
+main{
+	display:block;
+	width: auto;
+	height: 61.4vw;
+	
+	}
+	
+
+
+#infoPan {
+    width: auto;
+	
+}
+
+.grid9 {
+
+    width: 506px;
+	margin-left: 0px;
+	
+	
+}
+
+.grid3{
+	  width: 50%;
+	  height: 33.3%;
+	  margin-left: 0px;
+	  
+	
+	}
+
+.spin img{
+	  width:100%;
+	  
+ 
+	}
+
+.first{
+	margin-left: 0px;
+	
+	}
+	
+.first img{
+	  width:100%;
+	 
+
+	}	
+	
+.spin dl{
+	width: 100%;
+	height: 100%;
+		
+	}
+	
+.spin dt{
+	
+	margin: 10px 0 10px;
+	font-size: 14px;
+	}	
+	
+.spin dd{
+
+padding: 2px 0 3px;
+font-size: 12px;
+text-align:center;
+	}		
+	
+.spin dd:last-child {
+
+    padding-top: 0px;	
+}
+	
+#side_menu{
+	display: none;
+	
+}
+
+
+	
+main{
+	position:relative;
+	}
+
+.top_sp{
+	width: 205px;
+	height: 150px;
+	margin: 0px auto;
+	}
+	
+
+.top_sp_bg{
+	display: block;
+	width: auto;
+	padding-top: 10%;
+	}
+	
+.top_sp nav ul li {
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #fff;
+	color: #fff;
+}	
+
+.top_sp nav ul li a{
+    color: #fff;
+}	
+	
+.breadcrumb{
+	display: none;
+}
+	
+}

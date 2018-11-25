@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	color: #1166D3;
+	font-family: "Times New Roman", Times, "serif";
+	
+}
+
+a:focus, *:focus { 
+	outline:none; 
+				}
+/* クリックしたとき、枠線が出るのを消す*/
+
+
+
+ .active a{
+	display: block;
+	 background-color: #fff !important;
+	color: #317AD9 !important; 
+	 font-weight: 500;
+	 font-family: "HGSｺﾞｼｯｸE", "serif";
+}
+
+.navbar-brand > img{
+	display: block;
+	margin: 10px 0 10px 50px;
+	
+		
+}
+
+.navbar {
+	margin-bottom: 0;
+
+}
+
+
+
+
+/*.navbar-nav {
+	float: left;
+    margin: 30px 0 0px 500px;
+
+}*/
+.add img{
+	float: right;
+	margin-top: 15px;
+	
+	}
+
+.add::after{
+	content: "";
+  display: block;
+  clear: both;
+	
+}
+footer{
+	margin-top: 100px;
+	border-top: 1px solid #1166D3;
+	height: 350px;
+	background-color: #1d110a;
+	
+	
+
+}
+
+.f_navi{
+	height: 250px;
+}
+
+.f_naviInner{
+	width: 1000px;
+	height: 200px;
+	margin: 45px auto 0;
+	padding-top: 30px;
+	/*border: 1px solid #fff;*/
+}
+
+
+.f_menu{
+	width: 33.3%;
+	height: 200px;
+	/*border: 1px solid #f00;*/
+	float: left;
+}
+
+
+.f_menu ul{
+	list-style:none;
+	text-align:center;
+	font-size: 16px;
+	
+	}
+
+.f_menu ul li{
+	padding-bottom: 20px;
+	}
+
+.f_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.f_menu ul li a:hover{
+	opacity: 0.5;
+}
+
+
+
+.container{
+	text-align: center;
+	height: 50px;
+		
+}
+
+.container small{
+	color: #fff;
+}
+
+.container p{
+	color: #fff;
+}
+
+
+.cf::after{
+	content: "";
+  display: block;
+  clear: both;
+	
+}
+
+

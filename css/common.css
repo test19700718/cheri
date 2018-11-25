@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	color: #1166D3; /*f43757 赤*/
+	font-family: "Times New Roman", Times, "serif";
+	
+	
+}
+
+
+a:focus, *:focus { 
+	outline:none; 
+				}
+/* クリックしたとき、枠線が出るのを消す*/
+
+ul{
+	list-style: none;	
+	
+	}
+
+a{
+	text-decoration: none;
+	}
+
+ .active a{
+	display: block;
+	 background-color: #fff !important;
+	color: #317AD9 !important; 
+	 font-weight: 500;
+	 font-family: "HGSｺﾞｼｯｸE", "serif";
+}
+
+.container{
+	text-align: center;
+	height: 100px;
+		
+}
+
+nav{
+	display:none;
+	}
+
+.navbar-brand_sp{
+	display: none;
+	}
+
+.navbar-brand > img{
+	display: block;
+	margin: 10px 0 10px 50px;
+	
+		
+}
+
+.navbar {
+	margin-bottom: 0;
+
+}
+
+
+
+
+/*.navbar-nav {
+	float: left;
+    margin: 30px 0 0px 500px;
+
+}*/
+.add img{
+	float: right;
+	margin-top: 15px;
+	
+	}
+
+.add::after{
+	content: "";
+  display: block;
+  clear: both;
+	
+}
+footer{
+	margin-top: 100px;
+	border-top: 1px solid #1166D3;
+	/*height: 350px;*/
+	background-color: #1d110a;
+	
+	
+
+}
+
+.f_navi{
+	height: 250px;
+}
+
+.f_naviInner{
+	width: 1000px;
+	height: 200px;
+	margin: 45px auto 0;
+	padding-top: 30px;
+	/*border: 1px solid #fff;*/
+}
+
+
+.f_menu{
+	width: 33.3%;
+	height: 200px;
+	/*border: 1px solid #f00;*/
+	float: left;
+}
+
+
+.f_menu ul{
+	list-style:none;
+	text-align:center;
+	font-size: 16px;
+	
+	}
+
+.f_menu ul li{
+	padding-bottom: 20px;
+	color: #fff;
+	}
+
+.f_menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.f_menu ul li a:hover{
+	opacity: 0.5;
+}
+
+.f_contain{
+	text-align: center;
+}
+
+
+
+.f_contain small{
+	color: #fff;
+}
+
+.f_contain p{
+	color: #fff;
+	margin-bottom: 0;
+}
+
+
+.cf::after{
+	content: "";
+  display: block;
+  clear: both;
+		
+}
+
+
+@media only screen and (max-width: 768px){
+.container{	margin: 0 auto;
+			width: 100%;
+			height: auto;
+}
+
+.collapse{
+	display: none !important;
+	
+}
+
+
+.navbar-toggle{
+	background-color: #1163d3 !important;
+
+}
+	
+
+
+.navbar-brand_sp{
+	display: block;
+	}
+
+.navbar-brand_sp > img{
+			margin: 5px auto;
+			width: 55%;
+			height: 100%;
+	
+		
+}
+
+footer{
+	margin-top: 50px;
+	width:auto;
+	height: 100%;
+	
+	}
+.f_naviInner{
+	width: auto;
+	}	
+	
+.f_menu{
+	/*float: none;*/
+	width:50%;
+	height: 100%;
+	
+	}
+.f_pan{	
+	display: none;
+
+}
+
+.f_menu ul{
+	font-size: 12px;
+	}
+	
+
+.open{
+	background-color: #1E1109 !important;
+	}
+
+main{
+	position:relative;
+	}
+
+
+.big{
+	width: auto;
+	height: 100%;
+	margin: 0px auto;
+	}
+
+nav{
+		display:none;
+		position: absolute;
+		top:0;
+		width: 100%;
+		height: 100%;
+		background:rgba(10,0,0,0.8);
+		left: 0;
+		
+	}
+/*	.big nav ul{
+		display: block;
+		width: 90%;
+		height: 100px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		margin: auto;
+	}
+	*/
+	.big nav ul li{
+		margin: 0 auto;
+		text-align: center;
+		padding: 8px 0;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+	}
+	/*.big nav ul li:last-child{
+		border: none;
+	}*/
+	.big nav ul li a{
+		display: block; 
+		color: #fff;
+		text-decoration: none;
+	}
+	
+/* gridとTOPページでスマホ用ナビを2つ作成している　.bigと.top_sp*/	
+	
+button{
+	display:block !important;
+	
+	}	
+}
